@@ -1,0 +1,41 @@
+.container {
+	display: flex;
+	flex-directon: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.item {
+	border: 1px solid lightblue;
+	height: 600px;
+	width: 400px;
+	flex-basis: 400px;
+	padding-bottom: 4em;
+	margin-bottom: 2em;
+}
+
+.headers {
+	border: 1px dotted lightgray;
+}
+
+img.display {
+	margin-left: 150px;
+}
+
+.product_title {
+	text-align: center;
+}
+.productStatus {
+	color: yellow;
+	background-color: grey;
+}
+
+.boxfit {
+	line-height: 1em;
+}
+
+.item-4 {
+	align-self: flex-end;
+
+}
+
